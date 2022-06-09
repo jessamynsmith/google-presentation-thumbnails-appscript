@@ -28,7 +28,7 @@ function mainFunction() {
 
   const getImageLinks = (presentationId) => {
 
-    const presentation = Slides.Presentations.get(PRESENTATION_ID);
+    const presentation = Slides.Presentations.get(presentationId);
     const slides = presentation.slides;
 
     let thumbnailUrls = [];
